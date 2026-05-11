@@ -18,3 +18,5 @@ This script reads an excel file housing each of the ellabs used after a validati
 This improved entry time from around **1 minute 20 seconds down to 22 seconds**, a time decrease of **~70% per record**, saving hours of time in manual entry.
 
 ---------------------------------------------------------------
+
+**pipette_receive, pipette_cert_parse, pipette_ship** - These scripts automate the processes of shipping, receiving, and parsing ISO 17025 calibration pdfs from Rainin labs. With hundreds of pipettes per month needing calibration, these scripts automate the manual inspection of calibration certificates and the entire process from start to finish in Maximo. Used pandas, pypdf and Playwright python to interact with excel spreadsheets, pdf certificates, and browser elements respectively.
