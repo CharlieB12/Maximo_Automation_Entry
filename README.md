@@ -15,5 +15,6 @@ With hundreds of these dataloggers being used through out the year it is my job 
 
 This script reads an excel file housing each of the ellabs used after a validation effort and 6 different calibration test points (3 as found datalogger readings, 3 verified standard readings) and enters them into IBM Maximo. It compares the readings to make sure they are within tolerance and signs off on them until the entire list is done.
 
-This improved entry time from around 1 minute 20 seconds down to 22 seconds, a time decrease of ~70% per record, saving hours of time in manual entry.
-------------------------------------------------------------------
+This improved entry time from around **1 minute 20 seconds down to 22 seconds**, a time decrease of **~70% per record**, saving hours of time in manual entry.
+
+---------------------------------------------------------------
